@@ -3,7 +3,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Casa Hotel </title>
+    <title>Hichem Hotel </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -27,7 +27,7 @@
     <header class="site-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-4 site-logo" data-aos="fade"><a href="index.html"><em>Casahotel</em></a></div>
+          <div class="col-4 site-logo" data-aos="fade"><a href="index.html"><em>Hichem Hotel</em></a></div>
           <div class="col-8">
 
 
@@ -45,7 +45,7 @@
                     <div class="col-md-6 mx-auto text-center">
                       <ul class="list-unstyled menu">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="rooms/allRooms">Rooms</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="blog.html">Events</a></li>
                         <li><a href="contact.html">Contact</a></li>
@@ -233,6 +233,7 @@
 
 
         <div class="row">
+            {% for testimonial in testimonials %}
           <div class="js-carousel-2 owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
 
             <div class="testimonial text-center slider-item">
@@ -245,60 +246,7 @@
               </blockquote>
               <p><em>&mdash; Jean Smith</em></p>
             </div>
-
-            <div class="testimonial text-center slider-item">
-              <div class="author-image mb-3">
-                <img src="{% static 'img/person_2.jpg' %}" alt="Image placeholder" class="rounded-circle mx-auto">
-              </div>
-              <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; John Doe</em></p>
-            </div>
-
-            <div class="testimonial text-center slider-item">
-              <div class="author-image mb-3">
-                <img src="{% static 'img/person_3.jpg' %}" alt="Image placeholder" class="rounded-circle mx-auto">
-              </div>
-              <blockquote>
-
-                <p>&ldquo;Nostrum, alias, provident magnam sit blanditiis laboriosam unde quaerat, at ipsam, ratione maiores saepe nisi modi corporis quas! Beatae quam, quod aspernatur debitis nesciunt quasi porro ea iste nobis aliquid perspiciatis nostrum culpa impedit aut, iure blanditiis itaque similique sunt!&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; John Doe</em></p>
-            </div>
-
-
-            <div class="testimonial text-center slider-item">
-              <div class="author-image mb-3">
-                <img src="{% static 'img/person_1.jpg' %}" alt="Image placeholder" class="rounded-circle mx-auto">
-              </div>
-              <blockquote>
-
-                <p>&ldquo;Et quidem, impedit eum fugiat excepturi iste aliquid suscipit, tempore, delectus rem soluta voluptatem distinctio sed dolores, magni fugit nemo cum expedita. Totam a accusantium sunt aut autem placeat officia.&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; Jean Smith</em></p>
-            </div>
-
-            <div class="testimonial text-center slider-item">
-              <div class="author-image mb-3">
-                <img src="{% static 'img/person_2.jpg' %}" alt="Image placeholder" class="rounded-circle mx-auto">
-              </div>
-              <blockquote>
-                <p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. In dolor, iusto doloremque quo odio repudiandae sunt eveniet? Enim facilis laborum voluptate id porro, culpa maiores quis, blanditiis laboriosam alias&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; John Doe</em></p>
-            </div>
-
-            <div class="testimonial text-center slider-item">
-              <div class="author-image mb-3">
-                <img src="{% static 'img/person_3.jpg' %}" alt="Image placeholder" class="rounded-circle mx-auto">
-              </div>
-              <blockquote>
-
-                <p>&ldquo;Nostrum, alias, provident magnam sit blanditiis laboriosam unde quaerat, at ipsam, ratione maiores saepe nisi modi corporis quas! Beatae quam, quod aspernatur debitis nesciunt quasi porro ea iste nobis aliquid perspiciatis nostrum culpa impedit aut, iure blanditiis itaque similique sunt!&rdquo;</p>
-              </blockquote>
-              <p><em>&mdash; John Doe</em></p>
-            </div>
+              {% endfor %}
 
           </div>
             <!-- END slider -->
@@ -324,6 +272,7 @@
                 <h2 class="mt-0 mb-3"><a href="#">Unwind with Your Family in our Luxury Services</a></h2>
               </div>
             </div>
+
 
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 post" data-aos="fade-up" data-aos-delay="200">
@@ -368,7 +317,7 @@
               <li><a href="#">Terms &amp; Conditions</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Help</a></li>
-             <li><a href="#">Rooms</a></li>
+             <li><a href="rooms.html">Rooms</a></li>
             </ul>
           </div>
           <div class="col-md-3 mb-5">

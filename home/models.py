@@ -15,4 +15,9 @@ class Chambre(models.Model):
         return self.nom
 class Catalogue(models.Model):
     image = models.ImageField(upload_to='pics')
-
+class Testimonial(models.Model):
+    nom = models.CharField(max_length=20)
+    avis = models.TextField()
+    image = models.ImageField(upload_to='pics')
+    def __str__(self):
+        return self.nom
