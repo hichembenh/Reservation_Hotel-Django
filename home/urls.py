@@ -1,7 +1,8 @@
 from django.urls import path
-from . import views
-
+from .views import index,reservation
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
-    path("",views.index, name= 'index')
-
+    path('',index, name= 'index'),
+    path ("Reservation",reservation,name= 'reservation'),
 ]
+urlpatterns += staticfiles_urlpatterns()

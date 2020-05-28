@@ -49,7 +49,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="blog.html">Events</a></li>
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="reservation.html">Reservation Form</a></li>
+                        <li><a href="/Reservation">Reservation Form</a></li>
                       </ul>
                     </div>
                   </div>
@@ -174,20 +174,19 @@
          {% for chambre in chambres %}
              {% if chambre.disponibilité %}
         <div class="site-block-half d-flex bg-white" data-aos="fade-up" data-aos-delay="100">
-          <a href="#" class="image d-block bg-image" style="background-image: src='{{ chambre.image.url }}';"></a>
+          <a href="#" class="image d-block bg-image" style="background-image: src='{{chambre.image.url}}';"></a>
           <div class="text">
             <span class="d-block"><span class="display-4 text-primary">${{chambre.prix}}</span> / per night </span>
-            <h2>{{ destination1.nom }}</h2>
+            <h2>{{ chambre.nom }}</h2>
             <p class="lead">{{ chambre.description }}</p>
-            <p>{{ chambre.description }}</p>
-            <p><a href="#" class="btn btn-primary text-white">Book Now</a></p>
+            <p><a href="/Reservation" class="btn btn-primary text-white">Book Now</a></p>
           </div>
         </div>
              {% endif %}
         {% endfor %}
 
         <div class="row justify-content-center text-center mt-5" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-md-4"><p><a href="#" class="btn btn-primary text-white py-3 px-5">View All Rooms</a></p></div>
+          <div class="col-md-4"><p><a href="rooms/allRooms" class="btn btn-primary text-white py-3 px-5">View All Rooms</a></p></div>
         </div>
       </div>
     </section>

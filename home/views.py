@@ -9,3 +9,5 @@ def index (request):
     render(request,'index.html',{'testimonial': testimonials})
     render (request,'index.html',{'catalogues': catalogues})
     return render(request,"index.html",{'chambres': chambres})
+def reservation (request):
+    return render(request, "reservation.html")
