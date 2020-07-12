@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cac31340-6182-4293-a028-2d0c86734543" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservation/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/reservation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rooms.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +55,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projetttt/hotel" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\21655\Desktop\Hichem\Hotel\home" />
-      <recent name="C:\Users\21655\Desktop\Hichem\Hotel\media" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\21655\Desktop\Hichem\Hotel" />
       <recent name="C:\Users\21655\Desktop\Hichem\Hotel\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\21655\Desktop\Hichem\Hotel\home" />
+      <recent name="C:\Users\21655\Desktop\Hichem\Hotel\media" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,6 +132,11 @@
       <workItem from="1589365345723" duration="45000" />
       <workItem from="1589374830461" duration="3248000" />
       <workItem from="1590680155019" duration="8000000" />
+      <workItem from="1591055167039" duration="1275000" />
+      <workItem from="1591121725953" duration="2681000" />
+      <workItem from="1593358256504" duration="2013000" />
+      <workItem from="1594057894349" duration="1828000" />
+      <workItem from="1594566302109" duration="3932000" />
     </task>
     <servers />
   </component>
@@ -144,10 +148,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587066661832" />
-    <state x="645" y="126" key="FileChooserDialogImpl" timestamp="1589365388594">
+    <state x="645" y="126" key="FileChooserDialogImpl" timestamp="1594566336373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="645" y="126" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589365388594" />
+    <state x="645" y="126" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594566336373" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1587066723016">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

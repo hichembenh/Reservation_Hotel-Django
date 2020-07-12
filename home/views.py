@@ -11,3 +11,10 @@ def index (request):
     return render(request,"index.html",{'chambres': chambres})
 def reservation (request):
     return render(request, "reservation.html")
+def contact(request):
+    return  render (request, "contact.html")
+def blog (request):
+    chambres = Chambre.objects.all()
+    return render (request, "blog.html",{'chambres': chambres})
+def about(request):
+    return render (request, 'about.html')
